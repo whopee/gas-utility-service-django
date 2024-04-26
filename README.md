@@ -21,13 +21,12 @@ Follow these steps to set up the Gas Utility Services Application:
 
 ```bash
 git clone https://github.com/your_username/gas-utility-services.git
-
 ````
+### Change the directory
 ```bash
 cd gas-utility-services
 ````
 
-## Installation
 
 ## Install Dependencies
 ```bash
@@ -84,8 +83,7 @@ gas-utility-services/
 |-- README.md
 |-- requirements.txt
 
-```bash
-
+```
 
 
 
