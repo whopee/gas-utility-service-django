@@ -24,7 +24,7 @@ git clone https://github.com/your_username/gas-utility-services.git
 ````
 ### Change the directory
 ```bash
-cd gas-utility-services
+cd gas_utility_project
 ````
 
 
@@ -51,40 +51,10 @@ python manage.py migrate
 ```bash
 python manage.py createsuperuser
 ````
+### Write a Email Id and Password for it
+
 ### Start the Development Server
 ```bash
 python manage.py runserver
 ```
-
-### Here is the complete path for the reference 
-```bash
-gas-utility-services/
-|-- gas_utility_app/
-|   |-- gas_utility_app/
-|   |   |-- __init__.py
-|   |   |-- settings.py
-|   |   |-- urls.py
-|   |   |-- wsgi.py
-|-- customer_services/
-|   |-- migrations/
-|   |-- templates/
-|   |   |-- customer_services/
-|   |       |-- submit_service_request.html
-|   |       |-- track_service_request.html
-|   |-- __init__.py
-|   |-- admin.py
-|   |-- apps.py
-|   |-- forms.py
-|   |-- models.py
-|   |-- tests.py
-|   |-- urls.py
-|   |-- views.py
-|-- manage.py
-|-- README.md
-|-- requirements.txt
-
-```
-
-
-
 
